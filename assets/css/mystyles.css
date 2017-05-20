@@ -1,16 +1,37 @@
-.navbar{
-    background: #1C2331;
+.jumbotron {
+    padding-left:   28%;
+    background-image: url(../imgs/titlelogo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
 }
 
-.body {
-    background-image: url(../imgs/kids4.png);
+#rainbowkids{
+    padding-top: 200px;
+    padding-left: 85px;
+    color: #000000;
 }
-.myBackgroundImage {
-  
-     background-image: url(../imgs/rainbow_stripes_by_alignwebdesign.jpg);
+
+.myheading {
+   
+    text-align: center;
+}
+.mypanel{
+    background-color: #aeea00;
+    color: #3e2723;
+    font-size: 20px;
+}
+
+.moduletitle{
+    width: 300px;
+    height: 290px;
     
 }
 
+.storypanel{
+    width: 300px ;
+    height: 300px
+}
 
 .sidebarImage {
      background-image: url("../imgs/RainbowLOGO.png");
@@ -22,13 +43,14 @@
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 194px;
+    top: 30px;
     left: 0;
-    background-color: aliceblue;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
+
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -51,18 +73,7 @@
     margin-left: 50px;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-.jumbotron {
-    padding-left:   28%;
-   // background-image: url(../imgs/kids4.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }

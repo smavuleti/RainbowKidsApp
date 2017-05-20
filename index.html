@@ -13,113 +13,53 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50" class="myBackgroundImage">
-    
+<body>
     <header class = "jumbotron">
         <div class = "container">
             <div class = "row row-header">
                 <div class="col-xs-12 col-sm-8">
-                    <h1>Rainbow Kid Strories</h1>
+                    <div id="rainbowkids">
+                    <h1>Rainbow Kids</h1>
+                    </div>
                     
                 </div>
             </div>
         </div>
     </header>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#aboutApp">About</a>
-  <a href="#storyTrain">StoryTrain</a>
-  <a href="#abc123">ABC123</a>
-  <a href="#videos">Videos</a>
-</div>
-
-<div id="storyTrain">
-  
-  <span class="glyphicon glyphicon-menu-hamburger" onclick="openNav()"></span>
-    
-    <div class="container">
-    
-    <div class="row">
-        <div class="col-xs-12 col-md-4">
-            <a href="assets/pdfs/AliceinWonderland.pdf">
-                <img src="assets/imgs/Storytrain/11Alice%20in%20Wonderland.jpg" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Alice in Wonderworld" width="304" height="236">   </a> 
+      <div class = "container">
+        <div class ="row row-content">
+               <div class="col-sm-4">
+                  <div class="panel mypanel">
+                    <div class="panel-heading myheading"><strong>STORY TRAIN</strong></div>
+                    <div class="panel-body"><a href="assets/components/story-train/storyView.html" ><img src="assets/imgs/Storytrain/st.jpeg" class="img-responsive moduletitle" alt="Story Train"></a></div>
+                    
+                  </div>
+                </div>
+                <div class="col-sm-4"> 
+                  <div class="panel mypanel">
+                      <div class="panel-heading myheading"><strong>ABC123</strong></div>
+                    <div class="panel-body"><a href="assets/components/abc123/abc123View.html" ><img src="assets/imgs/abc/title.png" class="img-responsive moduletitle" alt="Story Train"></a></div>
+                    
+                  </div>
+                </div>
+                <div class="col-sm-4"> 
+                  <div class="panel mypanel">
+                      <div class="panel-heading myheading"><strong>VIDEOS</strong></div>
+                    <div class="panel-body"><a href="assets/components/videos/videoView.html" ><img src="assets/imgs/videos/title.png" class="img-responsive moduletitle" alt="kids channel"></a></div>
+                    <!--<div class="panel-footer"></div>-->
+                  </div>
+                </div>
         </div>
-        
-        <div class="col-xs-12 col-md-4">
-            <a href="assets/pdfs/PeterPan.pdf">
-                <img src="assets/imgs/Storytrain/13Peter%20Pan.jpg" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Peter Pan" width="304" height="236"> </a>
-        </div>
-        
-           <div class="col-xs-12 col-md-4">
-            <a href="assets/pdfs/Writing-on-Walls.pdf">
-                <img src="assets/imgs/Storytrain/WritingonWalls.png" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Alice in Wonderworld" width="304" height="236"></a>
-        </div>
-
-        </div>
-        
-         <div class="row">
-             <div class="col-xs-12 col-md-4">
-                 <a href="assets/pdfs/TheMoonandtheCap.pdf">
-                     <img src="assets/imgs/Storytrain/8The%20Moon%20and%20the%20Cap.jpg" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="The Moon and the Cap" width="304" height="236"></a>
-        </div>
-
-          <div class="col-xs-12 col-md-4">
-            <a href="assets/imgs/Storytrain/Fat-King-Thin-Dog.pdf">
-                <img src="assets/imgs/Storytrain/FatKingThinDog.png" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Alice in Wonderworld" width="304" height="236"></a>
-        </div>
-        
-     <div class="col-xs-12 col-md-4">
-        <a href="assets/pdfs/ASoundofThunder.pdf">
-        <img src="assets/imgs/Storytrain/ASoundofThunder.jpeg" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Little Wizard Stories of Oz" width="304" height="236"></a>
-        </div>
-        
-        
-        
-        </div>
-        
-        
-         <div class="row">
-             <div class="col-xs-12 col-md-4">
-                <a href="assets/pdfs/Hide-and-Seek.pdf"> 
-                    <img src="assets/imgs/Storytrain/HideandSeek.png" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Alice in Wonderworld" width="304" height="236"></a>
-        </div>
-                <div class="col-xs-12 col-md-4">
-            <a href="assets/pdfs/LittleWizardStoriesofOz.pdf">
-        <img src="assets/imgs/Storytrain/Oz.gif" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="Little Wizard Stories of Oz" width="304" height="236"></a>
-        </div>
-      
-        
-                <div class="col-xs-12 col-md-4">
-            <a href="assets/pdfs/TheJungleBook.pdf">
-                <img src="assets/imgs/Storytrain/12The%20Jungle%20Book.jpg" class="img-thumbnail img-responsive center-block" width="450" height="450" alt="The Jungle Book" width="304" height="236"></a>
-        </div>
-                
-
-        
-        </div>
-
     </div>
     
-
-</div>
+    
+<footer class="container-fluid text-center">
+  
+</footer>
     
     
+    
 
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("storyTrain").style.marginLeft = "250px";
-
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("storyTrain").style.marginLeft= "0";
-
-}
-</script>
 
 </body>
 </html>
